@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.menupia</id>
-    <name>menu_pia</name>
+    <id>PIA2.cl</id>
+    <name>PIA2</name>
     <version>1.0</version>
-    <publisher>apple13</publisher>
+    <publisher>PAULINQ</publisher>
     <url>http://</url>
-    <description>undefined</description>
-    <copyright>2015 by apple13</copyright>
+    <description/>
+    <copyright>2015 by PAULINQ</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>6009dbce-4bfc-4e7e-9444-e7ee338d3572</guid>
+    <guid>0264944b-c4be-4ad9-9222-43238a33ae54</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -47,34 +47,16 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules>
-        <module platform="commonjs">ti.cloud</module>
-    </modules>
+    <modules/>
     <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
         <target device="android">true</target>
-        <target device="ipad">true</target>
-        <target device="iphone">true</target>
-        <target device="mobileweb">false</target>
+        <target device="mobileweb">true</target>
     </deployment-targets>
     <sdk-version>4.1.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">55a17e745d8a9c6c0f085719</property>
-    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
-    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-development" type="string">rStno7orEumCbrLQemFuedJnrmFcv5G7</property>
-    <property name="acs-oauth-key-development" type="string">f6tgAdG2AABKcwnCEQW0BuH1FiB0YxVB</property>
-    <property name="acs-api-key-development" type="string">ZzkakOgPwtvGuQMTbOJsePCwkg4YuEAT</property>
-    <property name="acs-username-development" type="string">appc_app_user_dev</property>
-    <property name="acs-password-development" type="string">bKG9gnovFvx3w6Y1Sh</property>
-    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
-    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-production" type="string">d1pOqYYKUiH7NZawnbF59gYfeojtWz71</property>
-    <property name="acs-oauth-key-production" type="string">w3yn5xa0RrO76PaeeeduawzOSFhGpDFb</property>
-    <property name="acs-api-key-production" type="string">shWhe00GsZfg3QSOpLcug8Oc2Y5GgQ6R</property>
-    <property name="acs-username-production" type="string">appc_app_user</property>
-    <property name="acs-password-production" type="string">TV6aUeBvx2Ud9TNyyf</property>
-    <property name="appc-org-id" type="string">100039066</property>
-    <property name="appc-creator-user-id" type="string">d43b01e9-215a-4691-a202-4ec881680bfe</property>
+    <property name="appc-app-id" type="string">55a42404987501dc1124fd9a</property>
 </ti:app>

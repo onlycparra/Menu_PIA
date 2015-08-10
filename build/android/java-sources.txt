@@ -1,0 +1,8 @@
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/PIA2/cl/ApplicationStylesheet.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/PIA2/cl/AssetCryptImpl.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/PIA2/cl/Pia2Activity.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/PIA2/cl/Pia2AppInfo.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/PIA2/cl/Pia2Application.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/PIA2/cl/R.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/android/support/v7/appcompat/R.java"
+"/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/build/android/gen/ti/modules/titanium/ui/R.java"

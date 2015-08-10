@@ -1,1 +1,1 @@
-/home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/Resources/android/alloy/styles/menu_desbloquear.js
+/home/onlycparra/Appcelerator_Studio_Workspace/PIA2/Resources/android/alloy/styles/menu_desbloquear.js

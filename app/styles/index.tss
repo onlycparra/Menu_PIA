@@ -24,7 +24,7 @@
 	image:"/images/icon/home.png",
 	top: "10%",
 	left: "10%",
-	height: "90%"
+	height: "80%"
 	//width:Ti.UI.SIZE,
 }
 
@@ -52,7 +52,7 @@
 	image:"/images/icon/sound.png",
 	top: "10%",
 	right: "10%",
-	height: "90%"
+	height: "80%"
 }
 
 
@@ -60,9 +60,13 @@
 //---------------------------------
 //-------------BODY----------------
 //---------------------------------
+"#main_body":{
+	layout:"vertical",
+	height: "85%"
+}
 "#view_body":{
 	layout:"vertical",
-	height: "70%"
+	height: "80%"
 }
 "#Button_HS":{
 	backgroundColor: "#81DAF5"
@@ -74,10 +78,9 @@
 	top:"6%",
 	height:"40%",
 	width: "60%",
-	borderRadius: 40,
 	color: "white",
 	font: {
-		fontSize: 24,
+		fontSize: 40,
 		fontWeight: "bold",
 		textAlign:"center"
 	},
@@ -89,7 +92,7 @@
 //---------------------------------
 "#footer_view":{
 	width: "100%",
-	height: "15%"
+	height: "20%"
 }
 "#setting_view":{
 	bottom: "0%",
@@ -101,5 +104,25 @@
 	image:"/images/icon/gear.png",
 	bottom: "10%",
 	right: "10%",
-	height:"100%"
+	height:"80%"
+}
+"#done_view":{
+	bottom: "0%",
+	left:"0%",
+	width: "50%",
+	height: "100%",
+	//backgroundColor:"blue"
+}
+"#done_button":{
+	bottom: "10%",
+	left: "10%",
+	height:"80%",
+	backgroundColor:"#E22"
+}
+"#pass_input":{
+	font: {
+		fontSize: 36,
+		fontWeight: "bold",
+		textAlign:"center"
+	}
 }

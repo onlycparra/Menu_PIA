@@ -9,6 +9,3 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-Alloy.CFG.leftWidth = Ti.Platform.displayCaps.platformWidth * 0.8;
-Alloy.Globals.aux_categoria = null;
-Alloy.Globals.aux_juego = null;
