@@ -1,0 +1,90 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical"
+}
+
+
+//---------------------------------
+//------------HEADER---------------
+//---------------------------------
+"#header_view":{
+	width:"100%",
+	height: "15%",
+	layout:"horizontal",
+	//backgroundColor:"green"
+}
+"#home_view":{
+	top: "0%",
+	left:"0%",
+	width: "20%",
+	height: "100%",
+	//backgroundColor:"red"
+}
+"#home_icon":{
+	image:"/images/icon/home.png",
+	top: "10%",
+	left: "10%",
+	height: "90%"
+	//width:Ti.UI.SIZE,
+}
+
+"#title_view":{
+	width:"60%"
+}
+"#title_label":{
+	top: "50%",
+	text:"Bienvenido",
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+
+"#sound_view":{
+	top: "0%",
+	right:"0%",
+	width: "20%",
+	height: "100%",
+	//backgroundColor:"blue"
+}
+"#sound_icon":{
+	image:"/images/icon/sound.png",
+	top: "10%",
+	right: "10%",
+	height: "90%"
+}
+//---------------------------------
+//-------------BODY----------------
+//---------------------------------
+"#view_body":{
+	layout:"vertical",
+	height: "85%"
+}
+"#Button_siluetas":{
+	backgroundColor: "#F79F81"
+}
+"#Button_encuentralos":{
+	backgroundColor: "#F79F81"
+}
+"#Button_objetos":{
+	backgroundColor: "#F79F81"
+}
+"#Button_diferencias":{
+	backgroundColor: "#F79F81"
+}
+"#Button_memorice":{
+	backgroundColor: "#F79F81"
+}
+"Button": {
+	top:"6%",
+	height:"10%",
+	width: "30%",
+	borderRadius: 30,
+	color:"white",
+	font: {
+		fontSize: 18,
+		fontWeight: "bold",
+		textAlign:"center"
+	},
+}

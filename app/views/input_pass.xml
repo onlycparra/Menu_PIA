@@ -1,0 +1,31 @@
+<Alloy>
+	<Window class="container">
+		
+		
+		<View id="header_view">
+			<View id="home_view">
+				<ImageView id="home_icon"/>
+			</View>
+			<View id="title_view">
+				<Label id="title_label"/>
+			</View>
+			<View id="sound_view">
+				<ImageView id="sound_icon"/>
+			</View>
+		</View>
+		</View>
+		
+		
+		<View id="view_body">
+			
+			<TextField id="textField" passwordMask="true" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED"/>
+			<Button    id="Button_TF" onClick="validate">Aceptar</Button>
+			
+		</View>
+		
+		
+		<View id="footer_view">
+			
+		</View>
+    </Window>
+</Alloy>

@@ -1,0 +1,126 @@
+
+Tue Jul 14 2015 04:25:07 GMT-0300 (CLT)
+
+Operating System
+  Name                        = GNU/Linux
+  Version                     = 
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 8274161664
+
+Node.js
+  Node.js Version             = 0.10.29
+  npm Version                 = 2.13.0
+
+Titanium CLI
+  CLI Version                 = 4.0.1
+
+Titanium SDK
+  SDK Version                 = 4.1.0.GA
+  SDK Path                    = /home/onlycparra/.titanium/mobilesdk/linux/4.1.0.GA
+  Target Platform             = android
+
+Command
+  /usr/bin/nodejs /home/onlycparra/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA --target device --android-sdk /opt/android-sdk-linux --device-id 192.168.56.101:5555 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 38018 --plugin-paths /home/onlycparra/.appcelerator/install/4.1.0/package/node_modules --config-file /tmp/build-1436858701980.json --no-banner
+
+[DEBUG]  Detecting modules in /home/onlycparra/.titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /home/onlycparra/.titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 4.0.5 @ /home/onlycparra/.titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /home/onlycparra/.titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.map 2.3.1 @ /home/onlycparra/.titanium/modules/android/ti.map/2.3.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /home/onlycparra/.titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /home/onlycparra/.titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=test path=/home/onlycparra/.titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detecting plugins in /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /home/onlycparra/.titanium/plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ /home/onlycparra/.titanium/plugins/com.appcelerator.test
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[DEBUG]  Titanium SDK Android directory: /home/onlycparra/.titanium/mobilesdk/linux/4.1.0.GA/android
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: 192.168.56.101:5555
+[INFO]   Targeting Android SDK: 22
+[INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
+[INFO]   Signing with keystore: /home/onlycparra/.titanium/mobilesdk/linux/4.1.0.GA/android/dev_keystore (tidev)
+[DEBUG]  App ID: com.menupia
+[DEBUG]  Classname: Menu_pia
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/build/android/build-manifest.json does not exist
+[INFO]   Found Alloy app in /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/app
+[INFO]   Executing Alloy compile: /usr/bin/node /home/onlycparra/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/.bin/alloy compile /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/app --config platform=android,version=0,simtype=none,devicefamily=none,deploytype=test,target=device --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.6.2 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=android,version=0,simtype=none,devicefamily=none,deploytype=test,target=device"
+[DEBUG]  platform = android
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = none
+[DEBUG]  deploytype = test
+[DEBUG]  target = device
+[DEBUG]  project path = /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA
+[DEBUG]  app path = /home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/home/onlycparra/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/android/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/android/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/android/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/android/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/android/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/android/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy.js --> Resources/android/alloy.js
+[TRACE]  
+[TRACE]  SRC_DIR=/home/onlycparra/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/android/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/home/onlycparra/Appcelerator_Studio_Workspace/Menu_PIA/app/assets
+[TRACE]  
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/android/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/android/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/android/alloy/styles/index.js"
+[INFO]   [input_pass.xml] view processing...
+[INFO]   style:      "input_pass.tss"
+[INFO]   view:       "input_pass.xml"
+[ERROR]  Error parsing XML file.
+[ERROR]  end tag name: View is not match the current start tagName:Window
